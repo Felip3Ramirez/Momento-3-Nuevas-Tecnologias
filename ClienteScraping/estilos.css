@@ -1,0 +1,143 @@
+/* Estilos generales */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner */
+.banner {
+    background-color: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Descripción */
+.descripcion {
+    background-color: white;
+    border: solid 1px ;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.descripcion h2 {
+    color: #1a237e;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.descripcion p {
+    color: #666;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Título del ranking */
+.ranking-titulo {
+    text-align: center;
+    color: #1a237e;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Mensaje de carga */
+.cargando {
+    padding: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+/* Tarjetas de selecciones */
+.tarjeta-seleccion {
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    border: solid 1px ;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    position: relative;
+    text-align: center;
+}
+
+/* Número de ranking */
+.badge-ranking {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #1a237e;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Bandera CON IMAGEN */
+.bandera-imagen {
+    width: 80px;
+    height: 60px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Nombre del país */
+.nombre-pais {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a237e;
+    margin-bottom: 10px;
+}
+
+/* Puntuación */
+.puntuacion {
+    font-size: 28px;
+    font-weight: bold;
+    color: #e91e63;
+    margin-bottom: 5px;
+}
+
+/* Texto puntos */
+.texto-puntos {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+}

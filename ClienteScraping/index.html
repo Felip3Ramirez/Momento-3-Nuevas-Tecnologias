@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking de Selecciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        <h1>Ranking de Selecciones de Fútbol</h1>
+        <p>Las 10 mejores selecciones del mundo</p>
+    </div>
+
+    <div class="container">
+        <!-- Descripción -->
+        <div class="descripcion">
+            <h2>¿Qué hace esta web?</h2>
+            <p>Esta aplicación hace scraping de la WIKI y muestra la información del ranking de selecciones.</p>
+        </div>
+
+        <!-- Ranking -->
+        <div class="ranking-titulo">
+            RANKING DE LAS 10 PRIMERAS SELECCIONES
+        </div>
+
+        <!-- Aquí van las tarjetas -->
+        <div class="row" id="contenedor">
+            <div class="col-12 text-center">
+                <div class="cargando" id="cargando">
+                    Cargando datos...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>FOOTER</p>
+    </footer>
+
+    <script type="module" src="./controlador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
